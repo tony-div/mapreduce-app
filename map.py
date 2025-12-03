@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import sys
 import csv
 
@@ -25,5 +25,4 @@ for line in sys.stdin:
             continue
 
         year = date[:4]  
-
-print(f"{year}\t{tmp_value}")
+        print("{}\t{}".format(year, tmp_value))
